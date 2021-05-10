@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5284395F26491CAB005AF667 /* MyFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5284395D26491CAB005AF667 /* MyFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5284396926492307005AF667 /* MyFirstFrameworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5284396726492307005AF667 /* MyFirstFrameworkManager.h */; };
+		5284396A26492307005AF667 /* MyFirstFrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5284396826492307005AF667 /* MyFirstFrameworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5284395A26491CAB005AF667 /* MyFirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5284395D26491CAB005AF667 /* MyFirstFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstFramework.h; sourceTree = "<group>"; };
 		5284395E26491CAB005AF667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5284396726492307005AF667 /* MyFirstFrameworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstFrameworkManager.h; sourceTree = "<group>"; };
+		5284396826492307005AF667 /* MyFirstFrameworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstFrameworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				5284395D26491CAB005AF667 /* MyFirstFramework.h */,
+				5284396726492307005AF667 /* MyFirstFrameworkManager.h */,
+				5284396826492307005AF667 /* MyFirstFrameworkManager.m */,
 				5284395E26491CAB005AF667 /* Info.plist */,
 			);
 			path = MyFirstFramework;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5284396926492307005AF667 /* MyFirstFrameworkManager.h in Headers */,
 				5284395F26491CAB005AF667 /* MyFirstFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5284396A26492307005AF667 /* MyFirstFrameworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyunxiao.MyFirstFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -295,7 +303,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyunxiao.MyFirstFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
